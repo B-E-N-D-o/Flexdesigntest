@@ -8,18 +8,22 @@
 /* the header manipulation part */
 
 header{
+    border: 1px solid;
     margin: 10px 10px;
-    padding:40px 0;
+    /* padding:40px 0; */
     width: auto;
-    height: 100px;
-    text-align: center;
+    height: 150px;
+    /* text-align: center; */
     background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* the main block contents are here */
 
 main{
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: 0px 10px;
     padding: 0;
     height: auto;
@@ -28,6 +32,7 @@ main{
 }
 
 nav{
+    border: 1px solid;
     background-color: aquamarine;
     height: 200px;
     margin-right:5px ;
@@ -55,13 +60,14 @@ nav{
     flex-direction: column;
     justify-content: space-around; */
     width: 100%;
-
+    border: 1px solid;
 }
 
 .two{
     background-color: brown;
     height: 200px;
     padding: 10px;
+    border: 1px solid;
 }
 
 .content{
@@ -132,4 +138,16 @@ class valued two */
     align-items: center;
     width: 40%;
     height: 147.5px;
+}
+
+/* this footer part */
+
+footer{
+    background-color: pink;
+    display: flex;
+    margin: 10px 10px;
+    border: 1px solid;
+    height: 118px;
+    justify-content: center;
+    align-items: center;
 }
